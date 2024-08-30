@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#FA4811" />
+    <title>Lewis Vo - Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="appear-entry home" data-appear-entry-duration="400">
+    <main class="homepage-main-section">
+      <section class="row-section h-100 column-on-tablet">
+        <div class="column flex-column" id="title-column">
+          <div
+            class="logo-container"
+            data-appear
+            data-appear-delay="5"
+            data-appear-clipped="true"
+            data-animated-href="./index.html"
+          >
+            <img
+              class="logo"
+              src="./assets/logo_alt.svg"
+              data-homepage-random-group=""
+            />
+          </div>
+
+          <div class="flex-grow"></div>
+
+          <div class="big-title-container">
+            <div class="title-line">
+              <img
+                src="./assets/titles/L_alt.svg"
+                data-appear-on-load="true"
+                data-appear
+                data-appear-delay="2"
+              />
+              <img
+                src="./assets/titles/E_alt.svg"
+                data-appear-on-load="true"
+                data-appear
+                data-appear-delay="3.5"
+              />
+              <img
+                src="./assets/titles/W_alt.svg"
+                data-appear-on-load="true"
+                data-appear
+                data-appear-delay="5"
+              />
+              <img
+                src="./assets/titles/I_alt.svg"
+                data-appear-on-load="true"
+                data-appear
+                data-appear-delay="6.5"
+              />
+              <img
+                src="./assets/titles/S_alt.svg"
+                data-appear-on-load="true"
+                data-appear
+                data-appear-delay="8"
+              />
+            </div>
+            <div class="title-line">
+              <img
+                src="./assets/titles/V_alt.svg"
+                data-appear-on-load="true"
+                data-appear
+                data-appear-delay="10.5"
+              />
+              <img
+                src="./assets/titles/O_alt.svg"
+                data-appear-on-load="true"
+                data-appear
+                data-appear-delay="12"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="column flex-column" id="specialty-column">
+          <div class="divider"></div>
+          <nav>
+            <br />
+            <a
+              class="navigation-link"
+              data-appear-on-load="true"
+              data-appear
+              data-appear-delay="7"
+              data-shuffle-on-hover
+              data-animated-href="./projects.html"
+              >[ + Projects ]</a
+            >
+          </nav>
+          <ul class="design-specialty-list">
+            <li data-appear-on-load="true" data-appear data-appear-delay="8">
+              3D
+            </li>
+            <li data-appear-on-load="true" data-appear data-appear-delay="9">
+              Graphics
+            </li>
+            <li data-appear-on-load="true" data-appear data-appear-delay="10">
+              Branding
+            </li>
+            <li data-appear-on-load="true" data-appear data-appear-delay="11">
+              Typography
+            </li>
+            <li data-appear-on-load="true" data-appear data-appear-delay="12">
+              Interactive
+            </li>
+          </ul>
+
+          <div class="divider">
+            <div
+              class="line"
+              data-appear
+              data-appear-on-load="true"
+              data-appear-clipped="true"
+              data-appear-delay="2"
+            ></div>
+            <div
+              class="line"
+              data-appear
+              data-appear-on-load="true"
+              data-appear-clipped="true"
+              data-appear-delay="4"
+            ></div>
+          </div>
+        </div>
+        <div class="column flex-column">
+          <nav>
+            <br class="navigation-spacer" />
+            <a
+              class="navigation-link"
+              data-appear-on-load="true"
+              data-appear
+              data-appear-delay="10"
+              data-shuffle-on-hover
+              data-animated-href="./about.html"
+              >[ + About ]</a
+            >
+          </nav>
+          <div>
+            <p
+              data-appear
+              data-appear-on-load="true"
+              data-appear-delay="11"
+              class="monospaced"
+            >
+              Ho Chi Minh City, VN (GMT +7)
+            </p>
+            <p
+              data-appear
+              data-appear-on-load="true"
+              data-appear-delay="13"
+              class="monospaced"
+            >
+              Made in N 10° 43' 47 E 106° 41' 38
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="loading-overlay">
+      <object
+        class="loading-logo"
+        id="my-svg"
+        type="image/svg+xml"
+        data="./assets/logo_inverted.svg"
+      ></object>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.139.0/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.139.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.139.0/examples/js/loaders/RGBELoader.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
