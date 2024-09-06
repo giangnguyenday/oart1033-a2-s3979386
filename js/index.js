@@ -4,6 +4,7 @@ const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(50, 600 / 700, 0.1, 1000);
 let baseURL = "../";
 if (location.hostname === "lewis-vo.github.io") baseURL = "https://lewis-vo.github.io/portfolio/";
+if (location.hostname === "giangnguyenday.github.io") baseURL = "https://giangnguyenday.github.io/oart1033-a2-s3979386/";
 camera.position.set(0, 0.22, 0.9);
 camera.rotation.z = Math.PI * 0.06;
 
